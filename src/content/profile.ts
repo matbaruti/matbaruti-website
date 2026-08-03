@@ -1,4 +1,3 @@
-import headshotAsset from "@/assets/headshot.jpg.asset.json";
 import type { Stat } from "./types";
 
 export const profile = {
@@ -9,7 +8,7 @@ export const profile = {
   location: "Prishtina, Kosovo",
   mission:
     "My goal is to use leadership, technology, and continuous learning to create opportunities for others while contributing to the future of artificial intelligence and healthcare.",
-  headshot: headshotAsset.url as string,
+  headshot: "/headshot.jpg",
   contact: {
     email: "mattbaruti@gmail.com",
     phone: "+383 45 215 512",
