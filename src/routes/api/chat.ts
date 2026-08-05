@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { convertToModelMessages, streamText, type UIMessage } from "ai";
-import { createLovableAiGatewayProvider } from "@/lib/ai-gateway.server";
+import { createGoogleGenerativeAI } from "@ai-sdk/google";
 import { buildSystemPrompt } from "@/lib/knowledge-base";
 
 type ChatRequestBody = { messages?: unknown };
@@ -14,15 +14,18 @@ export const Route = createFileRoute("/api/chat")({
           return new Response("Messages are required", { status: 400 });
         }
 
-        const key = process.env.LOVABLE_API_KEY;
-        if (!key) {
-          return new Response("AI is not configured", { status: 500 });
-        }
+const key = process.env.GEMINI_API_KEY;
 
-        const gateway = createLovableAiGatewayProvider(key);
+if (!key) {
+  return new Response("Gemini API key missing", { status: 500 });
+}
+
+const google = createGoogleGenerativeAI({
+  apiKey: key,
+});
 
         const result = streamText({
-          model: gateway("google/gemini-3.6-flash"),
+          model: google("gemini-2.5-flash"),
           system: buildSystemPrompt(),
           messages: await convertToModelMessages(messages as UIMessage[]),
         });
