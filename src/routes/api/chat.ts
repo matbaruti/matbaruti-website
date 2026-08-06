@@ -31,7 +31,7 @@ export const Route = createFileRoute("/api/chat")({
           });
 
           const result = streamText({
-            model: google("gemini-2.5-flash-lite"),
+            model: google("gemini-2.5-pro"),
             system: buildSystemPrompt(),
             messages: await convertToModelMessages(
               messages as UIMessage[]
