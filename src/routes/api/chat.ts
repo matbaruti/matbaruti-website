@@ -33,7 +33,7 @@ export const Route = createFileRoute("/api/chat")({
           });
 
           const result = streamText({
-            model: openrouter("deepseek/deepseek-chat-v3.1:free"),
+            model: openrouter("moonshotai/kimi-k2:free"),
             system: buildSystemPrompt(),
             messages: await convertToModelMessages(
               messages as UIMessage[]
