@@ -12,8 +12,10 @@ export const profile = {
   contact: {
     email: "mattbaruti@gmail.com",
     phone: "+383 45 215 512",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/mat-baruti-12b0a7412/",
     github: "https://github.com/matbaruti",
+    instagram: "https://www.instagram.com/matbaruti/",
+    facebook: "https://www.facebook.com/mat.baruti",
     website: "",
   },
   /** Place the file in /public and point here, e.g. "/mat-baruti-cv.pdf". */
