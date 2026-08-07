@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { convertToModelMessages, streamText, type UIMessage } from "ai";
-import { createGoogleGenerativeAI } from "@ai-sdk/google";
+import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
 import { buildSystemPrompt } from "@/lib/knowledge-base";
 
 type ChatRequestBody = { messages?: unknown };
@@ -18,20 +18,22 @@ export const Route = createFileRoute("/api/chat")({
             });
           }
 
-          const key = process.env.GEMINI_API_KEY;
+          const key = process.env.OPENROUTER_API_KEY;
 
           if (!key) {
-            return new Response("Gemini API key missing", {
+            return new Response("OpenRouter API key missing", {
               status: 500,
             });
           }
 
-          const google = createGoogleGenerativeAI({
+          const openrouter = createOpenAICompatible({
+            name: "openrouter",
             apiKey: key,
+            baseURL: "https://openrouter.ai/api/v1",
           });
 
           const result = streamText({
-            model: google("gemini-2.0-flash"),
+            model: openrouter("deepseek/deepseek-chat-v3.1:free"),
             system: buildSystemPrompt(),
             messages: await convertToModelMessages(
               messages as UIMessage[]
