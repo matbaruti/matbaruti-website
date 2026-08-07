@@ -33,7 +33,7 @@ export const Route = createFileRoute("/api/chat")({
           });
 
           const result = streamText({
-            model: openrouter("moonshotai/kimi-k2:free"),
+            model: openrouter("openrouter/free"),
             system: buildSystemPrompt(),
             messages: await convertToModelMessages(
               messages as UIMessage[]
