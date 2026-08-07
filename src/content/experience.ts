@@ -195,7 +195,7 @@ export const experienceGroups: ExperienceGroup[] = [
         period: "2016–2025",
         location: "Prishtina, Kosovo",
         description:
-          "Graduated with a perfect 5.0 GPA across all nine academic years while holding continuous leadership responsibilities.",
+          "Graduated Faik Konica Primary and Lower Secondary School with a final GPA of 5.0 while holding continuous leadership responsibilities.",
       },
       {
         title: "English Language — Advanced (C1)",
