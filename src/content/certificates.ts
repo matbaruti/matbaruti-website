@@ -1,21 +1,39 @@
-import academicExcellence15 from "@/assets/academic-excellence-1-5.jpg.asset.json";
-import academicExcellence69 from "@/assets/academic-excellence-6-9.jpg.asset.json";
-import academicQuiz from "@/assets/academic-knowledge-quiz-certificate-1.jpg.asset.json";
-import cambridgeA11 from "@/assets/cambridge-a1-1-excellent.jpg.asset.json";
-import cambridgeA12 from "@/assets/cambridge-a1-2-excellent.jpg.asset.json";
-import cambridgeA13 from "@/assets/cambridge-a1-3-excellent.jpg.asset.json";
-import cmimi from "@/assets/cmimi-i-larte-faik-konica-1.jpg.asset.json";
-import hourOfCode from "@/assets/hour-of-code-certificate-of-completion-1.jpg.asset.json";
-import korca from "@/assets/jehona-korca-school-reference-1.jpg.asset.json";
-import oruci from "@/assets/jehona-oruci-school-reference-1.jpg.asset.json";
-import konicaTech from "@/assets/konica-tech-certificate-of-appreciation-1.jpg.asset.json";
-import odylp from "@/assets/odylp-eagle-2026-1.jpg.asset.json";
-import oxfordA2 from "@/assets/oxford-a2-next-move-3.jpg.asset.json";
-import oxfordPrimaryA1 from "@/assets/oxford-primary-a1-excellent-3.jpg.asset.json";
-import oxfordSecondaryA1 from "@/assets/oxford-secondary-a1-next-move-2.jpg.asset.json";
-import productivity from "@/assets/productivity-activity-attendance.jpg.asset.json";
-import redCross from "@/assets/red-cross-volunteer-certificate-1.jpg.asset.json";
-import magazine from "@/assets/school-magazine-certificate-of-appreciation-1.jpg.asset.json";
+import academicExcellence15 from "@/assets/certificates/academic-excellence-1-5.jpg";
+import academicExcellence69 from "@/assets/certificates/academic-excellence-6-9.jpg";
+import academicQuiz from "@/assets/certificates/academic-knowledge-quiz-certificate-1.jpg";
+import cambridgeA11 from "@/assets/certificates/cambridge-a1-1-excellent.jpg";
+import cambridgeA12 from "@/assets/certificates/cambridge-a1-2-excellent.jpg";
+import cambridgeA13 from "@/assets/certificates/cambridge-a1-3-excellent.jpg";
+import cmimi from "@/assets/certificates/cmimi-i-larte-faik-konica-1.jpg";
+import hourOfCode from "@/assets/certificates/hour-of-code-certificate-of-completion-1.jpg";
+import konicaTech from "@/assets/certificates/konica-tech-certificate-of-appreciation-1.jpg";
+import odylp from "@/assets/certificates/odylp-eagle-2026-1.jpg";
+import productivity from "@/assets/certificates/productivity-activity-attendance.jpg";
+import magazine from "@/assets/certificates/school-magazine-certificate-of-appreciation-1.jpg";
+import oxfordB1Front from "@/assets/certificates/oxford-b1-front.jpg";
+import oxfordB1Back from "@/assets/certificates/oxford-b1-back.jpg";
+import geminiCertifiedStudent from "@/assets/certificates/gemini-certified-student-certificate.jpg";
+import primarySchoolRecords from "@/assets/certificates/primary-school-academic-records.jpg";
+import oxfordC1Front from "@/assets/certificates/oxford-c1-front.jpg";
+import oxfordC1Back from "@/assets/certificates/oxford-c1-back.jpg"
+import oxfordB2PlusFront from "@/assets/certificates/oxford-b2+-front.jpg";
+import oxfordB2PlusBack from "@/assets/certificates/oxford-b2+-back.jpg";
+import redCrossFront from "@/assets/certificates/red-cross-volunteer-certificate-front.jpg";
+import redCrossBack from "@/assets/certificates/red-cross-volunteer-certificate-back.jpg";
+import oxfordSecondaryA1Front from "@/assets/certificates/oxford-secondary-a1-front.jpg";
+import oxfordSecondaryA1Back from "@/assets/certificates/oxford-secondary-a1-back.jpg";
+import oxfordPrimaryA1Front from "@/assets/certificates/oxford-primary-a1-front.jpg";
+import oxfordPrimaryA1Back from "@/assets/certificates/oxford-primary-a1-back.jpg";
+import oxfordA2Front from "@/assets/certificates/oxford-a2-front.jpg";
+import oxfordA2Back from "@/assets/certificates/oxford-a2-back.jpg";
+import jehonaOruciReferenceEnFront from "@/assets/certificates/jehona-oruci-reference-en-front.jpg";
+import jehonaOruciReferenceEnBack from "@/assets/certificates/jehona-oruci-reference-en-back.jpg";
+import jehonaKorcaReferenceEnFront from "@/assets/certificates/jehona-korca-reference-en-front.jpg";
+import jehonaKorcaReferenceEnBack from "@/assets/certificates/jehona-korca-reference-en-back.jpg";
+import jehonaOruciReferenceSqFront from "@/assets/certificates/jehona-oruci-reference-sq-front.jpg";
+import jehonaOruciReferenceSqBack from "@/assets/certificates/jehona-oruci-reference-sq-back.jpg";
+import jehonaKorcaReferenceSqFront from "@/assets/certificates/jehona-korca-reference-sq-front.jpg";
+import jehonaKorcaReferenceSqBack from "@/assets/certificates/jehona-korca-reference-sq-back.jpg";
 
 export type CertificateDocument = {
   id: string;
@@ -32,125 +50,174 @@ export const certificateDocuments: CertificateDocument[] = [
     title: "ODYLP-EAGLE 2026 — Certificate of Completion",
     issuer: "Legacy International · U.S. Department of State",
     kind: "Certificate",
-    image: odylp.url,
+    image: odylp,
   },
   {
     id: "cmimi-i-larte",
     title: "Çmimi i Lartë",
     issuer: "Faik Konica Primary and Lower Secondary School",
     kind: "Award",
-    image: cmimi.url,
+    image: cmimi,
   },
   {
     id: "konica-tech",
     title: "Konica Tech — Certificate of Appreciation",
     issuer: "Faik Konica Primary and Lower Secondary School",
     kind: "Certificate",
-    image: konicaTech.url,
-  },
-  {
-    id: "red-cross-volunteer",
-    title: "Red Cross Volunteer Certificate",
-    issuer: "Red Cross of Kosovo",
-    kind: "Certificate",
-    image: redCross.url,
+    image: konicaTech,
   },
   {
     id: "school-magazine",
     title: "School Magazine — Certificate of Appreciation",
     issuer: "Faik Konica Primary and Lower Secondary School",
     kind: "Certificate",
-    image: magazine.url,
+    image: magazine,
   },
   {
     id: "academic-excellence-1-5",
-    title: "Certificate of Academic Excellence — Grades 1–5",
+    title: "Certificate of Academic Excellence — Grades 1-5",
     issuer: "Faik Konica Primary and Lower Secondary School",
     kind: "Award",
-    image: academicExcellence15.url,
+    image: academicExcellence15,
   },
   {
     id: "academic-excellence-6-9",
-    title: "Certificate of Academic Excellence — Grades 6–9",
+    title: "Certificate of Academic Excellence — Grades 6-9",
     issuer: "Faik Konica Primary and Lower Secondary School",
     kind: "Award",
-    image: academicExcellence69.url,
-  },
-  {
-    id: "oxford-a2-next-move-3",
-    title: "English — A2, Next Move 3",
-    issuer: "Oxford Studio ELT",
-    kind: "Certificate",
-    image: oxfordA2.url,
-  },
-  {
-    id: "oxford-secondary-a1-next-move-2",
-    title: "English — Secondary A1, Next Move 2",
-    issuer: "Oxford Studio ELT",
-    kind: "Certificate",
-    image: oxfordSecondaryA1.url,
-  },
-  {
-    id: "oxford-primary-a1-excellent-3",
-    title: "English — Primary A1, Excellent",
-    issuer: "Oxford Studio ELT",
-    kind: "Certificate",
-    image: oxfordPrimaryA1.url,
+    image: academicExcellence69,
   },
   {
     id: "cambridge-a1-1",
     title: "English — A1.1, Excellent",
     issuer: "The Cambridge School of Kosovo",
     kind: "Certificate",
-    image: cambridgeA11.url,
+    image: cambridgeA11,
   },
   {
     id: "cambridge-a1-2",
     title: "English — A1.2, Excellent",
     issuer: "The Cambridge School of Kosovo",
     kind: "Certificate",
-    image: cambridgeA12.url,
+    image: cambridgeA12,
   },
   {
     id: "cambridge-a1-3",
     title: "English — A1.3, Excellent",
     issuer: "The Cambridge School of Kosovo",
     kind: "Certificate",
-    image: cambridgeA13.url,
+    image: cambridgeA13,
   },
   {
     id: "productivity-activity",
     title: "Productivity Activity — Certificate of Attendance",
     issuer: "Productivity Activity programme",
     kind: "Certificate",
-    image: productivity.url,
+    image: productivity,
   },
   {
     id: "academic-knowledge-quiz",
     title: "Academic Knowledge Quiz — Certificate",
     issuer: "Academic Knowledge Quiz",
     kind: "Certificate",
-    image: academicQuiz.url,
+    image: academicQuiz,
   },
   {
     id: "hour-of-code",
     title: "Hour of Code — Certificate of Completion",
     issuer: "Code.org",
     kind: "Certificate",
-    image: hourOfCode.url,
+    image: hourOfCode,
   },
   {
-    id: "reference-korca",
-    title: "School Reference — Jehona Korça",
-    issuer: "Faik Konica Primary and Lower Secondary School",
-    kind: "Reference",
-    image: korca.url,
+    id: "oxford-b1-front",
+    title: "English — B1, Front",
+    issuer: "Oxford Studio ELT",
+    kind: "Certificate",
+    image: oxfordB1Front,
   },
   {
-    id: "reference-oruci",
-    title: "School Reference — Jehona Oruçi",
+    id: "gemini-certified-student",
+    title: "Gemini Certified Student",
+    issuer: "Google",
+    kind: "Certificate",
+    image: geminiCertifiedStudent,
+  },
+  {
+    id: "primary-school-records",
+    title: "Primary School Academic Records",
     issuer: "Faik Konica Primary and Lower Secondary School",
+    kind: "Certificate",
+    image: primarySchoolRecords,
+  },
+  {
+    id: "oxford-c1-front",
+    title: "English — C1, Front",
+    issuer: "Oxford Studio ELT",
+    kind: "Certificate",
+    image: oxfordC1Front,
+  },
+  {
+    id: "oxford-b2+-front",
+    title: "English — B2+, Front",
+    issuer: "Oxford Studio ELT",
+    kind: "Certificate",
+    image: oxfordB2PlusFront,
+  },
+  {
+    id: "red-cross-volunteer-front",
+    title: "Red Cross Volunteer Certificate — Front",
+    issuer: "Red Cross of Kosovo",
+    kind: "Certificate",
+    image: redCrossFront,
+  },
+  {
+    id: "oxford-secondary-a1-front",
+    title: "English — Secondary A1, Front",
+    issuer: "Oxford Studio ELT",
+    kind: "Certificate",
+    image: oxfordSecondaryA1Front,
+  },
+  {
+    id: "oxford-primary-a1-front",
+    title: "English — Primary A1, Front",
+    issuer: "Oxford Studio ELT",
+    kind: "Certificate",
+    image: oxfordPrimaryA1Front,
+  },
+  {
+    id: "oxford-a2-front",
+    title: "English — A2, Front",
+    issuer: "Oxford Studio ELT",
+    kind: "Certificate",
+    image: oxfordA2Front,
+  },
+  {
+    id: "jehona-oruci-reference-en-front",
+    title: "School Reference — Jehona Oruci, English Front",
+    issuer: "Jehona Oruci School",
     kind: "Reference",
-    image: oruci.url,
+    image: jehonaOruciReferenceEnFront,
+  },
+  {
+    id: "jehona-korca-reference-en-front",
+    title: "School Reference — Jehona Korca, English Front",
+    issuer: "Jehona Korca School",
+    kind: "Reference",
+    image: jehonaKorcaReferenceEnFront,
+  },
+  {
+    id: "jehona-oruci-reference-sq-front",
+    title: "School Reference — Jehona Oruci, Albanian Front",
+    issuer: "Jehona Oruci School",
+    kind: "Reference",
+    image: jehonaOruciReferenceSqFront,
+  },
+  {
+    id: "jehona-korca-reference-sq-front",
+    title: "School Reference — Jehona Korca, Albanian Front",
+    issuer: "Jehona Korca School",
+    kind: "Reference",
+    image: jehonaKorcaReferenceSqFront,
   },
 ];
