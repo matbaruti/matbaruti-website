@@ -61,7 +61,7 @@ export const projects: Project[] = [
     tags: ["technology", "education", "artificial intelligence", "stem"],
     featured: true,
     overview:
-      "Konica Tech was one of the largest student-led technology initiatives organised at Faik Konica Primary and Lower Secondary School. It gave students an interactive environment to explore artificial intelligence, robotics, cybersecurity, programming, and 3D printing through demonstrations, presentations, and practical projects.",
+      "Konica Tech was one of the largest student-led technology initiatives organised at Faik Konica Primary and Lower Secondary School's Student Council. It gave students an interactive environment to explore artificial intelligence, robotics, cybersecurity, programming, and 3D printing through demonstrations, presentations, and practical projects.",
     objectives: [
       "Create hands-on exposure to technologies missing from the regular curriculum",
       "Have students research, prepare, and present the material themselves",
@@ -74,10 +74,6 @@ export const projects: Project[] = [
       "Approximately 15 to 25 students prepared each field, with around 80 students involved on the day",
       "Roughly 40 to 50 visitors explored the exhibition",
       "Every participating team successfully presented its work",
-    ],
-    challenges: [
-      "Coordinating multiple teams progressing at different paces across different subjects",
-      "Balancing preparation with regular academic responsibilities",
     ],
     impact:
       "Beyond attendance, the exhibition turned students into teachers — participants explained technical concepts with confidence while building communication, teamwork, and presentation skills. It strengthened interest in STEM across the school and encouraged younger students to explore subjects that may shape their futures.",
@@ -98,6 +94,7 @@ export const projects: Project[] = [
     summary:
       "Founded and led a student club with more than 40 members, organising chess and board game tournaments and representing the school in competition.",
     category: "Leadership",
+    year: "2025-2026",
     role: "Founder and club leader",
     location: "Faik Konica School, Prishtina",
     tags: ["leadership", "chess", "board games", "community", "tournaments"],
@@ -115,7 +112,7 @@ export const projects: Project[] = [
       "Built a club community of more than 40 students",
       "Organised chess tournaments and competitions involving other board games",
       "Represented the school in competitive chess",
-      "Won a chess tournament for the school",
+      "Won a chess tournament of the school",
     ],
     impact:
       "The club created a structured extracurricular space where students could connect through shared interests while developing strategic thinking, concentration, communication, and sportsmanship.",
@@ -137,6 +134,7 @@ export const projects: Project[] = [
     summary:
       "A youth-led sustainability project with the Red Cross of Kosovo, awarded 3rd place nationwide.",
     category: "Community",
+    year: "2026",
     role: "Volunteer and project contributor",
     location: "Prishtina, Kosovo",
     tags: ["volunteering", "environment", "red cross", "sustainability"],
@@ -181,6 +179,7 @@ export const projects: Project[] = [
     summary:
       "Planning and coordination of one of the school's major student events.",
     category: "Events",
+    year: "2025",
     location: "Faik Konica School, Prishtina",
     tags: ["events", "organising", "community"],
     overview:
@@ -193,10 +192,11 @@ export const projects: Project[] = [
     summary:
       "Contributed to planning and creating the school's official magazine.",
     category: "Publishing",
+    year: "2025",
     location: "Faik Konica School, Prishtina",
     tags: ["writing", "editorial", "school"],
     overview:
-      "The publication documented student activities, achievements, and events while giving students the chance to help produce a lasting record of school life.",
+      "The publication documented student activities, achievements, and events that were made throughout the whole school year, while giving students the chance to help produce a lasting record of school life.",
     impact:
       "Working on the magazine strengthened his appreciation for communication, teamwork, and documenting educational experiences.",
     skills: ["Writing", "Editorial planning", "Visual communication"],
@@ -207,6 +207,7 @@ export const projects: Project[] = [
     summary:
       "Helped establish and support student clubs encouraging curiosity beyond the classroom.",
     category: "Science",
+    year: "2021-2026",
     location: "Faik Konica School, Prishtina",
     tags: ["biology", "physics", "neuroscience", "clubs"],
     overview:
@@ -219,6 +220,7 @@ export const projects: Project[] = [
     summary:
       "Educational campaigns on bullying prevention, equality, wellbeing, and STEM.",
     category: "Community",
+    year: "2023-2026",
     location: "Prishtina, Kosovo",
     tags: ["awareness", "community", "inclusion", "unicef"],
     overview:
@@ -233,7 +235,7 @@ export const projects: Project[] = [
       "STEM promotion",
     ],
     impact:
-      "Collaborations included UNICEF Kosovo, the Kosovo Red Cross, Down Syndrome Kosova, and TOKA, reinforcing the importance of inclusive communities where every individual is valued and respected.",
+      "Collaborations included UNICEF Kosovo, the Red Cross Kosovo Team, Down Syndrome Kosova, and NGO TOKA, reinforcing the importance of inclusive communities where every individual is valued and respected.",
     skills: ["Campaign organising", "Advocacy", "Collaboration"],
   },
 ];
