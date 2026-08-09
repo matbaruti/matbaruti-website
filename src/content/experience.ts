@@ -55,7 +55,7 @@ export const timeline: TimelineEntry[] = [
     title: "Selected for ODYLP-EAGLE 2026 and represented Kosovo in the United States",
     detail:
       "One of six students chosen from 240+ applicants, completing the exchange and beginning a collaborative post-program Capstone Project.",
-    place: "Seattle, United States",
+    place: "Seattle & Washington D.C., United States",
   },
 ];
 

@@ -9,10 +9,10 @@ export const projects: Project[] = [
     title: "ODYLP-EAGLE 2026",
     summary:
       "One of six students selected to represent Kosovo in a U.S. Department of State exchange on AI and global leadership.",
-    category: "Leadership",
+    category: "AI & Leadership",
     year: "2026",
     role: "Participant, representing Kosovo",
-    location: "Seattle, United States",
+    location: "Seattle & Washington D.C., United States",
     tags: ["exchange", "international", "leadership", "artificial intelligence", "usa"],
     featured: true,
     overview:

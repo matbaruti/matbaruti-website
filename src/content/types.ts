@@ -55,7 +55,7 @@ export type Project = {
 
 export type ProjectCategory =
   | "Technology"
-  | "Leadership"
+  | "AI & Leadership"
   | "Community"
   | "Science"
   | "Publishing"
@@ -63,11 +63,12 @@ export type ProjectCategory =
 
 export const projectCategories: ProjectCategory[] = [
   "Technology",
-  "Leadership",
+  "AI & Leadership",
   "Community",
   "Science",
   "Publishing",
   "Events",
+  "Leadership"
 ];
 
 export type TimelineEntry = {
