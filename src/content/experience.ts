@@ -145,8 +145,8 @@ export const experienceGroups: ExperienceGroup[] = [
     description: "Collaborations and partnerships across education, service, and social impact.",
     entries: [
       { title: "Collaboration", organization: "UNICEF Kosovo" },
-      { title: "Collaboration", organization: "Kosovo Red Cross" },
-      { title: "Collaboration", organization: "TOKA" },
+      { title: "Collaboration", organization: "Red Cross Kosovo Team" },
+      { title: "Collaboration", organization: "NGO TOKA" },
       { title: "Collaboration", organization: "Down Syndrome Kosova" },
       { title: "Programme implementation partner", organization: "Legacy International" },
       { title: "Programme host", organization: "World Affairs Council" },
