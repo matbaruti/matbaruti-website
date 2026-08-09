@@ -93,6 +93,45 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "board-games-club",
+    title: "Board Games Club",
+    summary:
+      "Founded and led a student club with more than 40 members, organising chess and board game tournaments and representing the school in competition.",
+    category: "Leadership",
+    role: "Founder and club leader",
+    location: "Faik Konica School, Prishtina",
+    tags: ["leadership", "chess", "board games", "community", "tournaments"],
+    featured: true,
+    overview:
+      "The Board Games Club was founded as a student-led initiative to create a community around chess and other strategy-based board games. The club brought together more than 40 students and provided opportunities to play, compete, and develop strategic thinking in a collaborative environment.",
+    objectives: [
+      "Create a student community around chess and other board games",
+      "Encourage strategic thinking, concentration, and healthy competition",
+      "Organise tournaments and activities that give students opportunities to participate and compete",
+    ],
+    planning:
+      "As founder and club leader, Mat established the club, coordinated its activities, organised chess and board game tournaments, and helped create an environment where students with different levels of experience could participate.",
+    results: [
+      "Built a club community of more than 40 students",
+      "Organised chess tournaments and competitions involving other board games",
+      "Represented the school in competitive chess",
+      "Won a chess tournament for the school",
+    ],
+    impact:
+      "The club created a structured extracurricular space where students could connect through shared interests while developing strategic thinking, concentration, communication, and sportsmanship.",
+    skills: [
+      "Leadership",
+      "Community building",
+      "Event organisation",
+      "Tournament coordination",
+      "Strategic thinking",
+    ],
+    lessons: [
+      "Strong student communities can grow from a simple shared interest when someone takes the initiative to organise them",
+      "Leadership involves creating opportunities for others to participate, compete, and develop their own skills",
+    ],
+  },
+  {
     slug: "red-cross-environmental-initiative",
     title: "Environmental Sustainability Initiative",
     summary:
