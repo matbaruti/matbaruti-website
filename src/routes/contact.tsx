@@ -1,5 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Github, Globe, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { 
+  Facebook,
+  Github, 
+  Globe, 
+  Instagram, 
+  Linkedin,
+  Mail,
+  MapPin, 
+  Phone,
+} from "lucide-react";
 import { profile } from "@/content/profile";
 import { Reveal } from "@/components/site/reveal";
 import { PageHeader, PendingNote, Section } from "@/components/site/section";
@@ -25,13 +34,15 @@ export const Route = createFileRoute("/contact")({
 
 function Contact() {
   const { contact, cvUrl, location } = profile;
-  const channels = [
-    { icon: Mail, label: "Email", value: contact.email, href: `mailto:${contact.email}` },
-    { icon: Phone, label: "Phone", value: contact.phone, href: `tel:${contact.phone}` },
-    { icon: Linkedin, label: "LinkedIn", value: contact.linkedin, href: contact.linkedin },
-    { icon: Github, label: "GitHub", value: contact.github, href: contact.github },
-    { icon: Globe, label: "Website", value: contact.website, href: contact.website },
-  ].filter((channel) => channel.value);
+const channels = [
+  { icon: Mail, label: "Email", value: contact.email, href: `mailto:${contact.email}` },
+  { icon: Phone, label: "Phone", value: contact.phone, href: `tel:${contact.phone}` },
+  { icon: Linkedin, label: "LinkedIn", value: contact.linkedin, href: contact.linkedin },
+  { icon: Github, label: "GitHub", value: contact.github, href: contact.github },
+  { icon: Instagram, label: "Instagram", value: contact.instagram, href: contact.instagram },
+  { icon: Facebook, label: "Facebook", value: contact.facebook, href: contact.facebook },
+  { icon: Globe, label: "Website", value: contact.website, href: contact.website },
+].filter((channel) => channel.value);
 
   return (
     <>
@@ -91,16 +102,7 @@ function Contact() {
             ) : null}
           </Reveal>
 
-          <Reveal delay={80}>
-            <p className="text-eyebrow text-muted-foreground">Send a message</p>
-            <div className="mt-6">
-              <PendingNote>
-                A contact form can be wired up to deliver messages straight to Mat's inbox. Say the
-                word and it will be added, along with spam protection and delivery confirmation.
-                Until then, email is the fastest route.
-              </PendingNote>
-            </div>
-          </Reveal>
+
         </div>
       </Section>
     </>

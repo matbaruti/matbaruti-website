@@ -28,7 +28,7 @@ function Skills() {
       <PageHeader
         eyebrow="Skills"
         title="Practices, not proficiency bars."
-        intro="Grouped by the kind of work they serve. Nothing here is scored out of ten."
+        intro="Grouped by the kind of work they serve."
       />
 
       <Section>

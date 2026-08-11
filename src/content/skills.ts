@@ -3,7 +3,7 @@ import type { SkillGroup } from "./types";
 // No percentages, no bars — skills are grouped, never rated.
 export const skillGroups: SkillGroup[] = [
   {
-    label: "Artificial intelligence",
+    label: "Artificial Intelligence",
     description: "Independent study, daily experimentation, and applied practice.",
     skills: [
       "AI agents",

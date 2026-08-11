@@ -42,17 +42,11 @@ export const awardGroups: AwardGroup[] = [
         title: "English Language — Advanced (C1)",
         issuer: "Oxford Studio ELT",
         description:
-          "The final stage of nearly a decade of certified English study, following foundational courses at Cambridge School of Kosovo.",
-      },
-      {
-        title: "English Language — Certified courses",
-        issuer: "Cambridge School of Kosovo",
-        description:
-          "Progressive reading, writing, speaking, and listening development across multiple certified levels.",
+          "The final stage of nearly a decade of certified English study, following foundational courses at Cambridge School of Kosovo and Oxford Studio ELT.",
       },
       {
         title: "German Language — A2",
-        issuer: "Certified German language studies",
+        issuer: "German language studies",
         description: "Progression beyond A2 currently in progress.",
       },
       {
@@ -85,7 +79,7 @@ export const awardGroups: AwardGroup[] = [
         title: "Faik Konica School Magazine",
         issuer: "Faik Konica Primary and Lower Secondary School",
         description:
-          "Contributed to the planning and creation of the school's official magazine, documenting student life, activities, and achievements.",
+          "Contributed to the planning and creation of the school's official magazine, documenting student initiatives, activities, and achievements.",
       },
     ],
   },

@@ -202,7 +202,7 @@ export const experienceGroups: ExperienceGroup[] = [
         organization: "Oxford Studio ELT",
         location: "Prishtina, Kosovo",
         description:
-          "Completed after foundational studies at Cambridge School of Kosovo, as part of nearly ten years of structured English education.",
+          "Completed after foundational studies at Cambridge School of Kosovo and Oxford Studio ELT, as part of nearly ten years of structured English education.",
       },
       {
         title: "English Language — Foundational studies",
@@ -211,7 +211,7 @@ export const experienceGroups: ExperienceGroup[] = [
       },
       {
         title: "German Language — A2",
-        organization: "Certified German language studies",
+        organization: "German language studies",
         description: "Currently continuing progression beyond the A2 level.",
       },
     ],
