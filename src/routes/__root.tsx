@@ -135,7 +135,20 @@ function RootComponent() {
         {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
         <Outlet />
       </main>
-      <SiteFooter />
+      <>
+  <div className="flex justify-center py-8">
+    <a
+      href="https://forms.gle/vGTxoiaoLtfYUMvr6"
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex h-12 items-center justify-center rounded-full border border-border px-6 text-[0.9375rem] font-medium transition-colors hover:bg-accent"
+    >
+      Report a Bug
+    </a>
+  </div>
+
+  <SiteFooter />
+</>
     </QueryClientProvider>
   );
 }

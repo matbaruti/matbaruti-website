@@ -53,7 +53,7 @@ const channels = [
       />
 
       <Section>
-        <div className="grid gap-14 lg:grid-cols-[1fr_1fr] lg:gap-20">
+        <div className="max-w-3xl mx-auto">
           <Reveal>
             <p className="text-eyebrow text-muted-foreground">Direct</p>
             {channels.length === 0 ? (

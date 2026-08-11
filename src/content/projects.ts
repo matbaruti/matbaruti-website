@@ -177,14 +177,29 @@ export const projects: Project[] = [
     slug: "konica-fest",
     title: "Konica Fest",
     summary:
-      "Planning and coordination of one of the school's major student events.",
+  "Contributed to organising one of the school's largest annual events, bringing together academic, cultural, STEM, and community initiatives into a single end-of-year showcase.",
     category: "Events",
     year: "2025",
     location: "Faik Konica School, Prishtina",
     tags: ["events", "organising", "community"],
     overview:
-      "Konica Fest was one of the school's major student events. Mat contributed to its planning and coordination, encouraging participation, creativity, and collaboration across the student body.",
-    skills: ["Event planning", "Team leadership"],
+       "Konica Fest is the flagship annual event of Faik Konica Primary and Lower Secondary School, showcasing the achievements, projects, performances, competitions, clubs, and initiatives developed throughout the academic year. In 2025, Mat contributed to the planning, coordination, logistics, and execution of the event alongside the Student Council and participating students.",
+    results: [
+  "Approximately 60–70 students involved in planning and execution",
+  "Around 80 visitors, including local leaders and education officials",
+  "Technology, STEM, science, arts, theatre, music, chess, board games, and student projects showcased",
+  "Successful coordination of multiple student-led exhibitions and presentations",
+  "Received the Çmimi i Lartë Faik Konica award during the event"
+],
+    impact:
+      "The event demonstrated how student leadership can coordinate large-scale educational activities while bringing together academic achievement, creativity, technology, and community engagement in a single public celebration.",
+    skills: [
+      "Event coordination", 
+      "Logistics planning",
+      "Student leadership",
+      "Stakeholder communication",
+      "Project management"
+    ],
   },
   {
     slug: "school-magazine",
