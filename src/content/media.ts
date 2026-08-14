@@ -15,7 +15,7 @@ export const mediaCoverage: MediaLink[] = [
     outlet: "Faik Konica Primary and Lower Secondary School",
     date: "2016–2025",
     summary:
-      "Leadership initiatives, educational projects, awareness campaigns, technology exhibitions, humanitarian activities, competitions, and extracurricular events were documented across the school's news articles, official social media posts, and publications over multiple academic years.",
+      "Over multiple academic years, Mat's leadership initiatives, educational projects, technology exhibitions, humanitarian activities, environmental campaigns, student council work, awareness programmes, competitions, clubs, and extracurricular events were documented through the school's official website, publications, Facebook page, Instagram account, and partner organisations. Coverage included projects such as Konica Tech, Konica Fest, student leadership activities, Red Cross initiatives, awareness campaigns, STEM projects, and the presentation of the Çmimi i Lartë Faik Konica award.",
   },
   {
     title: "Faik Konica School Magazine",
