@@ -183,23 +183,36 @@ export const projects: Project[] = [
     location: "Faik Konica School, Prishtina",
     tags: ["events", "organising", "community"],
     overview:
-       "Konica Fest is the flagship annual event of Faik Konica Primary and Lower Secondary School, showcasing the achievements, projects, performances, competitions, clubs, and initiatives developed throughout the academic year. In 2025, Mat contributed to the planning, coordination, logistics, and execution of the event alongside the Student Council and participating students.",
+         "Konica Fest is the flagship annual event of Faik Konica Primary and Lower Secondary School, bringing together the most significant projects, activities, competitions, performances, exhibitions, and achievements completed throughout the academic year. In 2025, Mat contributed to the planning, coordination, logistics, and execution of the event alongside fellow Student Council members and student leaders, helping transform months of work into a large-scale public celebration of student achievement.",
+    planning:
+  "Preparation required extensive coordination across multiple student groups, teachers, and school leadership. Students worked on exhibitions, STEM projects, performances, art displays, board games, technology demonstrations, and stage activities. Mat helped coordinate participants, support logistics, prepare exhibition spaces, organise materials, and assist with event planning decisions ranging from activity placement to visitor flow throughout the school campus.",
+    objectives: [
+  "Showcase the school's academic, artistic, scientific, and extracurricular achievements",
+  "Coordinate student-led presentations, exhibitions, performances, and activities",
+  "Create an engaging experience for students, families, teachers, and public guests",
+],
     results: [
-  "Approximately 60–70 students involved in planning and execution",
-  "Around 80 visitors, including local leaders and education officials",
-  "Technology, STEM, science, arts, theatre, music, chess, board games, and student projects showcased",
-  "Successful coordination of multiple student-led exhibitions and presentations",
-  "Received the Çmimi i Lartë Faik Konica award during the event"
+  "Approximately 60–70 students actively involved in planning and presentations",
+  "Around 80 visitors attended the event",
+  "Technology, STEM, art, theatre, music, science, and board game activities presented throughout the school",
+  "Public attendance included the Mayor of Prishtina, Përparim Rama, and the Minister of Education, Arbërie Nagavci",
+  "Recipient of the Çmimi i Lartë Faik Konica award during the event's official ceremony",
 ],
     impact:
-      "The event demonstrated how student leadership can coordinate large-scale educational activities while bringing together academic achievement, creativity, technology, and community engagement in a single public celebration.",
+       "Konica Fest served as the school's largest annual celebration of student achievement, bringing together projects and initiatives from across the academic year. The event demonstrated how student leadership, teamwork, and long-term planning can transform ideas into experiences that engage the wider community and showcase the capabilities of young people.",
     skills: [
       "Event coordination", 
       "Logistics planning",
       "Student leadership",
       "Stakeholder communication",
-      "Project management"
+      "Project management",
+      "Team coordination",
+      "Public engagement",
     ],
+    lessons: [
+  "Large events succeed through coordination between many different teams rather than the efforts of a single individual",
+  "Good planning must remain flexible because challenges continue to appear until the event begins",
+],
   },
   {
     slug: "school-magazine",
