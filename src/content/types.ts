@@ -59,7 +59,9 @@ export type ProjectCategory =
   | "Community"
   | "Science"
   | "Publishing"
-  | "Events";
+  | "Events"
+  | "Leadership"
+;
 
 export const projectCategories: ProjectCategory[] = [
   "Technology",

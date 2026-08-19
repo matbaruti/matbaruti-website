@@ -41,6 +41,7 @@ export type CertificateDocument = {
   issuer: string;
   kind: "Certificate" | "Award" | "Reference";
   image: string;
+  landscape?: boolean;
 };
 
 /** Rendered, view-only images of the original documents. Source files are not published. */
@@ -51,6 +52,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "Legacy International · U.S. Department of State",
     kind: "Certificate",
     image: odylp,
+    landscape: true,
   },
   {
     id: "cmimi-i-larte",
@@ -65,6 +67,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "Faik Konica Primary and Lower Secondary School",
     kind: "Certificate",
     image: konicaTech,
+    landscape: true,
   },
   {
     id: "school-magazine",
@@ -72,6 +75,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "Faik Konica Primary and Lower Secondary School",
     kind: "Certificate",
     image: magazine,
+    landscape: true,
   },
   {
     id: "academic-excellence-1-5",
@@ -79,6 +83,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "Faik Konica Primary and Lower Secondary School",
     kind: "Award",
     image: academicExcellence15,
+    landscape: true,
   },
   {
     id: "academic-excellence-6-9",
@@ -86,6 +91,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "Faik Konica Primary and Lower Secondary School",
     kind: "Award",
     image: academicExcellence69,
+    landscape: true,
   },
   {
     id: "cambridge-a1-1",
@@ -93,6 +99,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "The Cambridge School of Kosovo",
     kind: "Certificate",
     image: cambridgeA11,
+    landscape: true,
   },
   {
     id: "cambridge-a1-2",
@@ -100,6 +107,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "The Cambridge School of Kosovo",
     kind: "Certificate",
     image: cambridgeA12,
+    landscape: true,
   },
   {
     id: "cambridge-a1-3",
@@ -107,6 +115,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "The Cambridge School of Kosovo",
     kind: "Certificate",
     image: cambridgeA13,
+    landscape: true,
   },
   {
     id: "productivity-activity",
@@ -114,6 +123,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "Productivity Activity programme",
     kind: "Certificate",
     image: productivity,
+    landscape: true,
   },
   {
     id: "academic-knowledge-quiz",
@@ -121,6 +131,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "Academic Knowledge Quiz",
     kind: "Certificate",
     image: academicQuiz,
+    landscape: true,
   },
   {
     id: "hour-of-code",
@@ -128,6 +139,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "Code.org",
     kind: "Certificate",
     image: hourOfCode,
+    landscape: true,
   },
   {
     id: "oxford-b1-front",
@@ -170,6 +182,7 @@ export const certificateDocuments: CertificateDocument[] = [
     issuer: "Red Cross of Kosovo",
     kind: "Certificate",
     image: redCrossFront,
+    landscape: true,
   },
   {
     id: "oxford-secondary-a1-front",

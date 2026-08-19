@@ -1,26 +1,54 @@
 import { useEffect, useState } from "react";
+import type { SyntheticEvent } from "react";
 import { X, ZoomIn, Lock } from "lucide-react";
 import type { CertificateDocument } from "@/content/certificates";
 import { Reveal } from "@/components/site/reveal";
 
-const block = (e: React.SyntheticEvent) => {
+const block = (e: SyntheticEvent) => {
   e.preventDefault();
   e.stopPropagation();
 };
 
 /** View-only rendering: no source file, no download, no drag, no context menu. */
-function ProtectedImage({ src, alt, className }: { src: string; alt: string; className?: string }) {
+function ProtectedImage({
+  src,
+  alt,
+  className,
+  rotate = false,
+}: {
+  src: string;
+  alt: string;
+  className?: string;
+  rotate?: boolean;
+}) {
   return (
-    <div className="relative select-none" onContextMenu={block}>
-      <img
-        src={src}
-        alt={alt}
-        loading="lazy"
-        draggable={false}
-        onDragStart={block}
-        className={`pointer-events-none select-none ${className ?? ""}`}
-      />
-      {/* Transparent shield keeps the bitmap out of easy reach of save/drag gestures. */}
+    <div
+      className={`relative flex items-center justify-center select-none ${
+        rotate ? "min-h-[70vh] min-w-full" : ""
+      }`}
+      onContextMenu={block}
+    >
+      <div
+        className={
+          rotate
+            ? "flex items-center justify-center rotate-90"
+            : "w-full"
+        }
+      >
+        <img
+          src={src}
+          alt={alt}
+          loading="lazy"
+          draggable={false}
+          onDragStart={block}
+          className={`pointer-events-none select-none ${
+            rotate
+              ? "h-auto max-h-[85vw] w-auto max-w-[70vh] object-contain"
+              : "w-full"
+          } ${className ?? ""}`}
+        />
+      </div>
+
       <div className="absolute inset-0" aria-hidden />
     </div>
   );
@@ -109,10 +137,11 @@ export function CertificateWall({ documents }: { documents: CertificateDocument[
             </div>
             <div className="mt-4 overflow-hidden rounded-2xl border border-border bg-muted">
               <ProtectedImage
-                src={active.image}
-                alt={`${active.title} — view-only document`}
-                className="w-full"
-              />
+  src={active.image}
+  alt={`${active.title} — view-only document`}
+  rotate={Boolean(active.landscape)}
+  className={active.landscape ? "h-auto w-auto" : "h-auto w-full"}
+/>
             </div>
           </div>
         </div>
