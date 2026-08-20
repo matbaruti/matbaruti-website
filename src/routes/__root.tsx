@@ -118,9 +118,16 @@ function RootShell({ children }: { children: ReactNode }) {
         <HeadContent />
       </head>
       <body>
-        {children}
-        <Scripts />
-      </body>
+  {children}
+
+  <script
+    type="module"
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "279b395e31d644478de74f9672cab226"}'
+  />
+
+  <Scripts />
+</body>
     </html>
   );
 }
