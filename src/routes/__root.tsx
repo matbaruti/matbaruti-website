@@ -99,11 +99,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
     scripts: [
-      {
-        // Applies the stored theme before first paint so there is no flash.
-        children: `(function(){try{var s=localStorage.getItem("mb-theme");var d=s?s==="dark":window.matchMedia("(prefers-color-scheme: dark)").matches;if(d)document.documentElement.classList.add("dark");}catch(e){}})();`,
-      },
-    ],
+  {
+    type: "application/ld+json",
+    children: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Mat Baruti",
+      alternateName: "Mat Baruti CV",
+      url: "https://matbaruticv.vercel.app/",
+    }),
+  },
+  {
+    // Applies the stored theme before first paint so there is no flash.
+    children: `(function(){try{var s=localStorage.getItem("mb-theme");var d=s?s==="dark":window.matchMedia("(prefers-color-scheme: dark)").matches;if(d)document.documentElement.classList.add("dark");}catch(e){}})();`,
+  },
+],
   }),
   shellComponent: RootShell,
   component: RootComponent,

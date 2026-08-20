@@ -9,17 +9,30 @@ import { Section, SectionHeading } from "@/components/site/section";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Mat Baruti — AI Enthusiast Exploring AI × Healthcare" },
+      { title: "Mat Baruti | AI, Technology & Leadership" },
       {
         name: "description",
         content:
-          "Mat Baruti is an artificial intelligence enthusiast from Pristina, Kosovo, exploring AI × healthcare and building technology for human impact.",
+          "Mat Baruti is a student from Kosovo interested in artificial intelligence, technology, leadership, and healthcare, documenting his projects, experience, achievements, and learning journey.",
       },
-      { property: "og:title", content: "Mat Baruti — AI Enthusiast Exploring AI × Healthcare" },
+      {
+        property: "og:title",
+        content: "Mat Baruti | AI, Technology & Leadership",
+      },
       {
         property: "og:description",
         content:
-          "Leadership, technology, and continuous learning in service of others — projects, experience, and a knowledge base you can question directly.",
+          "Projects, experience, leadership, technology, and learning from Mat Baruti.",
+      },
+      {
+        property: "og:url",
+        content: "https://matbaruticv.vercel.app/",
+      },
+    ],
+    links: [
+      {
+        rel: "canonical",
+        href: "https://matbaruticv.vercel.app/",
       },
     ],
   }),
